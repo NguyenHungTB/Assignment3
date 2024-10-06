@@ -1,0 +1,295 @@
+* {
+  font-family: sans-serif;
+}
+.banner_image {
+  position: relative;
+  width: 100%;
+}
+.banner_text {
+  position: absolute;
+  color: white;
+  top: 40%;
+  left: 35%;
+}
+.name {
+  font-size: 50px;
+  text-align: center;
+}
+.job,
+.nav_job {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 0;
+}
+.nav_info {
+  display: flex;
+  justify-content: center;
+  gap: 9%;
+  border: 1px solid rgb(145, 151, 149);
+  padding-top: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.nav_name {
+  font-size: 25px;
+  margin-bottom: 0;
+  text-align: center;
+}
+.nav_info a:link,
+a:visited {
+  /* background-color: rgb(221, 223, 222); */
+  /* color: white; */
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+}
+.nav_info a:hover {
+  background-color: #ddd;
+  color: rgb(255, 0, 0);
+}
+
+.nav_info a:active {
+  background-color: #bbacac;
+  color: rgb(124, 56, 82);
+}
+.ten img {
+  border: 5px solid white;
+  border-radius: 50%;
+  width: 150px;
+  height: auto;
+  position: absolute;
+  left: 44%;
+  top: 103%;
+  text-align: center;
+  flex-grow: 3;
+}
+.icon-user,
+.icon-doc-text-inv,
+.icon-mail-alt,
+.icon-star-1 {
+  border: 1px solid #c4bfbf;
+  width: 180px;
+  height: 50px;
+  text-align: center;
+  font-size: 15px;
+  flex-grow: 1;
+}
+.icon-user,
+.icon-doc-text-inv,
+.icon-mail-alt,
+.icon-star-1,
+::before {
+  color: blue;
+}
+.personal_info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: left;
+  column-gap: 0;
+}
+.muctieunghenghiep,
+.thongtincanhan {
+  padding-left: 10%;
+  background-color: #eee;
+  /* border: 1px solid #9ea09f; */
+  font-size: 20px;
+}
+.time {
+  display: float;
+  float: left;
+}
+#now {
+  border-radius: 2px;
+  background: #199cdb;
+}
+/* .current {
+  background-color: blue;
+  border-radius: 2px;
+  width: 80px;
+} */
+.kinhnghiem,
+.sothich,
+.hoatdong,
+.hocvan,
+.ngonngu,
+.kinang {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  background: #eeeeee;
+  padding: 10px;
+  font-size: 20px;
+  margin-top: 10px;
+  grid-template-rows: 90px;
+}
+.class3a,
+.class3b,
+.class3c,
+.class3d,
+.class3e,
+.class3f {
+  grid-column: 1/ 3;
+  display: none;
+}
+.icon-sothich {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: start;
+  /* flex-direction: column; */
+}
+.div1,
+.div2,
+.div3,
+.div4 {
+  text-align: center;
+  font-size: 15px;
+  padding-left: 20px;
+}
+.ic-megaphone,
+.ic-strategy,
+.ic-hotairballoon,
+.ic-basket {
+  text-align: center;
+  padding: 10px;
+  border: 3px solid blue;
+  border-radius: 50%;
+  font-size: 20px;
+}
+.span_level {
+  background: #199cdb;
+  display: inline-block;
+  height: 5px;
+  margin-right: 10px;
+  width: 45px;
+}
+.spanlevel {
+  background: #737575;
+  display: inline-block;
+  height: 5px;
+  margin-right: 10px;
+  width: 45px;
+}
+.experiencesection {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  /* padding: 10px; */
+}
+.ic-toolbox,
+.ic-pencil,
+.ic-telescope,
+.ic-mic {
+  font-size: 30px;
+}
+.class1a,
+.class1b,
+.class1c,
+.class1e,
+.class1f,
+.class1d {
+  font-size: 30px;
+  padding-left: 10px;
+}
+.chungchi_giaithuong {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+}
+.chungchi_giaithuong div {
+  display: flex;
+  gap: 10px;
+  font-size: 18px;
+  margin: 10px;
+}
+.anh1,
+.anh2,
+.anh3 {
+  width: 300px;
+  height: auto;
+}
+.div5 {
+  grid-column: 1 / -1;
+}
+td {
+  /* border-top: 1px solid #ddd; */
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+  width: auto;
+}
+table {
+  width: 100%;
+}
+.cvcanhan {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid #737575;
+}
+.time1 {
+  background: #8bf4fc;
+  border-radius: 20%;
+  color: white;
+}
+.image1 {
+  width: 400px;
+  height: auto;
+  /* border-bottom: 1px solid #737575; */
+}
+.project {
+  display: flex;
+  font-size: 15px;
+  gap: 10px;
+}
+#td1 {
+  width: 90px;
+}
+.tieude {
+  padding-top: 10px;
+  border-bottom: 1px solid #a4a8a8;
+}
+footer {
+  background: #cbcece;
+  text-align: center;
+  padding: 20px;
+}
+.personallink a:link,
+a:visited {
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+}
+.personallink a:hover {
+  background-color: #ddd;
+  color: rgb(52, 194, 230);
+}
+
+.personallink a:active {
+  background-color: #04aa6d;
+  color: white;
+}
+.mota {
+  display: none;
+}
+.emailconfirm {
+  padding-bottom: 15px;
+}
+#btn1,
+#btn2,
+#btn3,
+#btn4,
+#btn5,
+#btn6 {
+  font-size: medium;
+  background-color: #cfc7c7;
+  display: none;
+}
+#btn-viewless1,
+#btn-viewless2,
+#btn-viewless3,
+#btn-viewless4,
+#btn-viewless5,
+#btn-viewless6 {
+  background-color: #cfc7c7;
+}

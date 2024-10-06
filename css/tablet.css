@@ -1,0 +1,64 @@
+@media screen and (max-width: 768px) {
+  /* .nav_info img {
+    display: none;
+  } */
+  .banner_image {
+    position: relative;
+    width: 100%;
+  }
+  .banner_text {
+    position: absolute;
+    color: white;
+    top: 15%;
+    left: 30%;
+  }
+  .nav_info {
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* align-items: space-between; */
+    /* align-content: center; */
+    justify-content: center;
+    gap: 9%;
+    border: 1px solid rgb(145, 151, 149);
+    padding: 10px;
+  }
+  .icon-user,
+  .icon-doc-text-inv,
+  .icon-mail-alt,
+  .icon-star-1 {
+    border: 1px solid #c4bfbf;
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    font-size: 15px;
+  }
+  .name {
+    font-size: 30px;
+    text-align: center;
+  }
+  .ten {
+    display: none;
+  }
+  .experiencesection,
+  .chungchi_giaithuong {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .chungchi1,
+  .chungchi2,
+  .div5 {
+    display: flex;
+    flex-direction: column;
+  }
+  .project {
+    display: flex;
+  }
+  .div6,
+  .div7,
+  .div8 {
+    width: 250px;
+  }
+  .image1 {
+    width: 250px;
+  }
+}
